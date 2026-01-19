@@ -14,13 +14,18 @@ I'm deeply interested in honing my coding skills and enjoy working back-end tech
 
 As a developer at Serole Technologies, I specialize in Java frameworks. My current work revolves around enhancing the Tune Integrated Producers System (TIPS), an innovative insurance platform.
 
-## Skills
+TECHNICAL SKILLS
+• Languages: Java, SQL, JavaScript (Basic)
+• Frameworks & Technologies: Spring Boot, Spring Batch, Spring Core, Spring Data JPA, REST APIs, Servlets, React.js (Beginner)
+• Frontend: HTML, CSS, JavaScript (Basic)
+• Tools: IntelliJ IDEA, Postman, Kubernetes (Lens), Maven, Git, Jenkins, Jira (Basic)
+• Databases: MySQL, PostgreSQL
+• Version Control: Git, GitHub, Bitbucket
+• Build Tools: Maven, Gradle
+• Cloud & DevOps: AWS S3 (Integration), CI/CD (Jenkins – Basic Understanding), Apache Airflow (Basics)
+• Security: Keycloak (Authentication & Authorization – Basic Understanding)
+• Other Skills: Prompt Engineering (ChatGPT, Gemini, Gamma AI)
 
-- **Front-end**: HTML, CSS, JavaScript
-- **Back-end**: Java, Spring Boot, Microservices
-- **API Development**: RESTful API development and integration
-- **Databases**: MySQL, PostgreSQL
-- **Version Control**: BitBucket, GitHub
 
 ## Current Focus
 
