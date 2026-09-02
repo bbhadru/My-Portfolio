@@ -362,8 +362,8 @@ header .navbar ul li a:hover {
   flex: 1 1 35rem;
 }
 .about .row .image img {
-   width: 550%;
-  height: 500px;          /* Updated image height */
+   width: 450%;
+  height: 450px;          /* Updated image height */
   object-fit: cover;      /* Keeps the image properly fitted */
   margin-left: 6rem;
   border-radius: 50%;
