@@ -213,7 +213,7 @@ header .navbar ul li a:hover {
 }
 .home .image img {
   width: 70%;
-  height: 400px;          /* Updated image height */
+  height: 420px;          /* Updated image height */
   object-fit: cover;      /* Keeps the image properly fitted */
   margin-left: 6rem;
   border-radius: 50%;
@@ -363,7 +363,7 @@ header .navbar ul li a:hover {
 }
 .about .row .image img {
    width: 70%;
-  height: 400px;          /* Updated image height */
+  height: 420px;          /* Updated image height */
   object-fit: cover;      /* Keeps the image properly fitted */
   margin-left: 6rem;
   border-radius: 50%;
