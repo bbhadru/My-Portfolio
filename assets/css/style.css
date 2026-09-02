@@ -212,7 +212,7 @@ header .navbar ul li a:hover {
   z-index: 1;
 }
 .home .image img {
-  width: 70%;
+  width: 80%;
   height: 450px;          /* Updated image height */
   object-fit: cover;      /* Keeps the image properly fitted */
   margin-left: 6rem;
@@ -362,7 +362,7 @@ header .navbar ul li a:hover {
   flex: 1 1 35rem;
 }
 .about .row .image img {
-   width: 450%;
+   width: 80%;
   height: 450px;          /* Updated image height */
   object-fit: cover;      /* Keeps the image properly fitted */
   margin-left: 6rem;
