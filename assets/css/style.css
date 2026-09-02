@@ -362,13 +362,14 @@ header .navbar ul li a:hover {
   flex: 1 1 35rem;
 }
 .about .row .image img {
-   width: 70%;
+   width: 450%;
   height: 450px;          /* Updated image height */
   object-fit: cover;      /* Keeps the image properly fitted */
   margin-left: 6rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  display: block;
 }
 .about .row .image img:hover {
   mix-blend-mode: normal;
