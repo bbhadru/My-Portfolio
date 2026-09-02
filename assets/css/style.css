@@ -213,7 +213,7 @@ header .navbar ul li a:hover {
 }
 .home .image img {
   width: 70%;
-  height: 350px;          /* Updated image height */
+  height: 400px;          /* Updated image height */
   object-fit: cover;      /* Keeps the image properly fitted */
   margin-left: 6rem;
   border-radius: 50%;
@@ -362,13 +362,12 @@ header .navbar ul li a:hover {
   flex: 1 1 35rem;
 }
 .about .row .image img {
-  margin: 4rem;
-  width: 35rem;
-  height: auto;
+   width: 70%;
+  height: 400px;          /* Updated image height */
+  object-fit: cover;      /* Keeps the image properly fitted */
+  margin-left: 6rem;
   border-radius: 50%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  /* mix-blend-mode: luminosity; */
-  transition: 0.3s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
 .about .row .image img:hover {
