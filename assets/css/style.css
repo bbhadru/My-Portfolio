@@ -56,9 +56,7 @@ html::-webkit-scrollbar-thumb {
 .loader-container.fade-out {
   top: -120%;
 }
-/* pre loader end */
 
-/* navbar starts */
 header {
   position: fixed;
   top: 0;
@@ -343,7 +341,7 @@ header .navbar ul li a:hover {
     font-size: 2.2rem;
   }
 }
-/* hero media queries ends*/
+/* hero media queries ends*/d
 /* hero section end */
 
 /* about section starts */
@@ -1234,4 +1232,3 @@ form .button-area {
 #scroll-top.active {
   top: calc(100% - 12rem);
 }
-/* scroll top ends */
