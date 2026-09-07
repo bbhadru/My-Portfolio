@@ -159,71 +159,78 @@
 </div>
 </section>
 
-<section class="work" id="work">
+<!-- Projects Section Starts -->
+<section class="projects" id="projects">
 
   <h2 class="heading">
-  <i class="fas fa-laptop-code"></i> Projects <span>Made</span>
-</h2>
+    <i class="fas fa-laptop-code"></i> My <span>Projects</span>
+  </h2>
 
-<div class="box-container">
+  <div class="project-grid">
 
-  <div class="box tilt">
+    <!-- Phishing URL Detection Project -->
+    <div class="project-card">
 
-    <img draggable="false"
-         src="./assets/images/projects/phishing-url.png"
-         alt="Phishing URL Detection System">
-
-    <div class="content">
-
-      <div class="tag">
-        <h3>Phishing URL Detection System</h3>
+      <div class="project-header"
+           style="background: linear-gradient(135deg, #011aff, #57059e);">
+        <i class="fas fa-shield-alt"></i>
       </div>
 
-      <div class="desc">
+      <div class="project-body">
+
+        <h3>Phishing URL Detection System</h3>
 
         <p>
-          Developed a machine learning and deep learning based web application
-          for detecting phishing and legitimate URLs. The system uses the
-          PILU-90K dataset containing 90,000 URLs, including homepage and
-          login-page URLs, to improve real-world phishing detection.
+          Developed a machine learning and deep learning-based web
+          application for detecting phishing and legitimate URLs. The
+          project introduces the PILU-90K dataset containing 90,000 URLs,
+          including 60,000 legitimate URLs and 30,000 phishing URLs, with
+          both homepage and login-page URLs to represent real-world
+          phishing scenarios. The system analyzes URL patterns and
+          characteristics to identify suspicious links and help users
+          avoid fraudulent websites, credential theft, and online scams.
         </p>
 
         <p>
-          Implemented URL analysis using 38 handcrafted features,
+          Implemented three major detection approaches: 38 handcrafted
+          URL features with multiple machine learning classifiers,
           character-level TF-IDF with Logistic Regression, and a
-          Convolutional Neural Network (CNN). The TF-IDF with Logistic
-          Regression model achieved 96.50% accuracy.
+          character-level Convolutional Neural Network (CNN). The
+          TF-IDF with Logistic Regression approach achieved a reported
+          accuracy of <strong>96.50%</strong> on the PILU-90K dataset.
+          The system supports manual URL checking and dataset upload,
+          processes the submitted URLs, classifies them as phishing or
+          legitimate, and presents detection results through graphical
+          representations.
         </p>
 
-        <div class="tech-stack">
+        <p>
+          This project provided practical experience in cybersecurity,
+          machine learning, deep learning, natural language processing,
+          feature extraction, URL classification, dataset processing,
+          model evaluation, and web application development.
+        </p>
+
+        <div class="tech-tags">
           <span>Python</span>
+          <span>Django</span>
           <span>Machine Learning</span>
           <span>Deep Learning</span>
           <span>TF-IDF</span>
           <span>Logistic Regression</span>
           <span>CNN</span>
-        </div>
-
-        <div class="btns">
-          <a href="#" class="btn" target="_blank">
-            <i class="fas fa-eye"></i> View
-          </a>
-
-          <a href="#" class="btn" target="_blank">
-            Code <i class="fas fa-code"></i>
-          </a>
+          <span>NLP</span>
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
         </div>
 
       </div>
 
-    </div>
-
   </div>
 
-</div>
-
 </section>
-<!-- work project section ends -->
+<!-- Projects Section Ends -->
 <!-- education section ends -->
 
 
