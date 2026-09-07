@@ -1,5 +1,7 @@
 # 👋 Hi, I'm Bhadru Banothu
 
+
+
 ### 💻 Java Developer | Full-Stack Developer | Software Engineer
 
 Welcome to my portfolio! I'm a **Computer Science Engineering graduate** passionate about software development, backend development, and building practical web applications.
