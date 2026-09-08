@@ -30,9 +30,9 @@
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#experience">Experience</a></li>
              <li><a href="https://drive.google.com/file/d/12oMvTUDTawr1Cub1GepdJtbQ8qV3RsRD/view?usp=sharing">Resume</a></li>
-            <!-- <li><a href="#experience">Experience</a></li>  -->
             <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -54,10 +54,7 @@
         <ul class="social-icons">
           <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/bhadru-banothu/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
           <li><a class="github" aria-label="GitHub" href="https://github.com/bbhadru " target="_blank"><i class="fab fa-github"></i></a></li>
-          <!-- <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/jigar_sable" target="_blank"><i class="fab fa-twitter"></i></a></li>
-          <li><a class="telegram" aria-label="Telegram" href="https://t.me/lifecode5" target="_blank"><i class="fab fa-telegram-plane"></i></a></li> -->
           <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/BanothuBhadru 786"><i class="fab fa-instagram" target="_blank"></i></a></li>
-          <!-- <li><a class="dev" aria-label="Dev" href="https://dev.to/jigarsable" target="_blank"><i class="fab fa-dev"></i></a></li> -->
         </ul>
       </div>
     </div>
@@ -66,7 +63,6 @@
 </div>
 </section>
 <!-- hero section ends -->
- <!-- about <section></section> -->
 
 <!-- about section starts -->
 <section class="about" id="about">
@@ -79,9 +75,13 @@
     </div>
     <div class="content">
         <h3>I'm Bhadru Banothu</h3>
+       <span class="tag">C++ / C# & Java Developer</span>
        <p>
-       I’m a passionate Computer Science Engineering graduate with a strong interest in software development and technology. I have a solid foundation in **Java, Python, SQL, Spring Boot, REST APIs, HTML, CSS, and JavaScript**, along with hands-on experience developing web applications and academic projects. I enjoy solving problems, learning new technologies, and building practical solutions that create real value. I’m currently looking for an **entry-level software development opportunity** where I can apply my technical skills, grow professionally, and contribute to a dynamic team.
-
+       Computer Science & Engineering graduate (2026) with a strong foundation in object-oriented programming, data structures, and
+       algorithms, and hands-on exposure to C++ and C# alongside production experience in Java, Python, and Spring Boot. Skilled at
+       building and debugging full-stack and desktop-facing applications, with practical experience in Git-based version control,
+       REST APIs, and SQL databases. Quick learner with a genuine interest in hardware-software interaction and device communication,
+       seeking an entry-level Software Engineer role developing Windows desktop applications that interface with embedded systems.
        </p>
         <div class="box-container">
             <div class="box">
@@ -112,13 +112,6 @@
     <div class="container">
           <div class="row" id="skillsContainer">
 
-            <!-- <div class="bar">
-              <div class="info">
-                <img src="https://img.icons8.com/color/48/000000/adobe-xd.png"/>
-                <span>AdobeXD</span>
-              </div>
-            </div> -->
-
       </div>
 </div>
 </section>
@@ -141,7 +134,7 @@
         <div class="content">
         <h3>Bachelor of Technology in Computer Science</h3>
         <p>Malla Reddy College of Engineering</p>
-        <h4>2022-2026 | Completed</h4>
+        <h4>2022-2026 | Expected June 2026</h4>
         </div>
     </div>
 
@@ -158,118 +151,42 @@
 
 </div>
 </section>
+<!-- education section ends -->
 
 <!-- Projects Section Starts -->
-<section class="projects" id="projects">
+<section class="work" id="projects">
 
-  <h2 class="heading">
-    <i class="fas fa-laptop-code"></i> My <span>Projects</span>
-  </h2>
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> My <span>Projects</span></h2>
 
   <div class="project-grid">
 
     <!-- Phishing URL Detection Project -->
     <div class="project-card">
-
-      <div class="project-header"
-           style="background: linear-gradient(135deg, #011aff, #57059e);">
+      <div class="project-header" style="background: linear-gradient(135deg, #011aff, #57059e);">
         <i class="fas fa-shield-alt"></i>
       </div>
-
       <div class="project-body">
-
-        <h3>Phishing URL Detection System</h3>
-
+        <h3>Phishing URL Detection System <span class="proj-client">Academic Project</span></h3>
         <p>
-          Developed a machine learning and deep learning-based web
-          application for detecting phishing and legitimate URLs. The
-          project introduces the PILU-90K dataset containing 90,000 URLs,
-          including 60,000 legitimate URLs and 30,000 phishing URLs, with
-          both homepage and login-page URLs to represent real-world
-          phishing scenarios. The system analyzes URL patterns and
-          characteristics to identify suspicious links and help users
-          avoid fraudulent websites, credential theft, and online scams.
+          Full-stack web application built with Python and Django to identify and detect phishing URLs.
+          Implemented backend logic for URL validation, pattern matching, and phishing detection algorithms
+          using OOP and modular design principles, with a user-friendly interface for URL analysis and
+          reporting of suspicious links. Applied web security concepts including input validation, secure
+          data handling, and risk assessment, and used MySQL to store URL records and detection results.
         </p>
-
-        <p>
-          Implemented three major detection approaches: 38 handcrafted
-          URL features with multiple machine learning classifiers,
-          character-level TF-IDF with Logistic Regression, and a
-          character-level Convolutional Neural Network (CNN). The
-          TF-IDF with Logistic Regression approach achieved a reported
-          accuracy of <strong>96.50%</strong> on the PILU-90K dataset.
-          The system supports manual URL checking and dataset upload,
-          processes the submitted URLs, classifies them as phishing or
-          legitimate, and presents detection results through graphical
-          representations.
-        </p>
-
-        <p>
-          This project provided practical experience in cybersecurity,
-          machine learning, deep learning, natural language processing,
-          feature extraction, URL classification, dataset processing,
-          model evaluation, and web application development.
-        </p>
-
         <div class="tech-tags">
-          <span>Python</span>
-          <span>Django</span>
-          <span>Machine Learning</span>
-          <span>Deep Learning</span>
-          <span>TF-IDF</span>
-          <span>Logistic Regression</span>
-          <span>CNN</span>
-          <span>NLP</span>
-          <span>HTML5</span>
-          <span>CSS3</span>
-          <span>JavaScript</span>
+          <span>Python</span><span>Django</span><span>MySQL</span><span>Web Security</span><span>OOP</span>
         </div>
-
       </div>
+    </div>
 
   </div>
 
 </section>
 <!-- Projects Section Ends -->
-<!-- education section ends -->
-
-
-<!-- work project section starts -->
-<!-- <section class="work" id="work">
-
- <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
-
-  <div class="box-container">  -->
-
-    <!-- <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/portfolio1.PNG" alt="" />
-      <div class="content">
-        <div class="tag">
-        <h3>Portfolio Website</h3>
-        </div>
-        <div class="desc">
-          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="https://github.com/jigar-sable/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-<!-- </div> -->
-
-<!-- <div class="viewall">
-  <a href="/projects" class="btn"><span>View All</span>
-    <i class="fas fa-arrow-right"></i>
-</a>
-</div> -->
-
-<!-- </section> -->
-<!-- work project section ends -->
 
 <!-- experience section starts -->
-<!-- <section class="experience" id="experience">
+<section class="experience" id="experience">
 
   <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
   
@@ -277,88 +194,25 @@
 
   <div class="timeline">
 
-    <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2>Serole Technologies</h2>
-        </div>
-        <div class="desc">
-            <h3>Associate Software Developer</h3>
-            <p>May 2023 - present</p>
-        </div>
+  <div class="container right">
+    <div class="content">
+      <div class="tag">
+        <h2>10000 Coders</h2>
       </div>
-    </div>
-
-    <div class="container left">
-      <div class="content">
-        <div class="tag">
-          <h2>EduBridge Platform</h2>
-        </div>
-        <div class="desc">
-            <h3>Junior Java Full Stack Developer | Internship</h3>
-            <p>November 2022 - April 2023</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2>The Spark Foundation</h2>
-        </div>
-        <div class="desc">
-            <h3>Website Developer | Internship</h3>
-            <p>May 2021 - June 2021</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container left">
-      <div class="content">
-        <div class="tag">
-          <h2>The Spark Foundation</h2>
-        </div>
-        <div class="desc">
-            <h3>Mobile Application Developer | Internship</h3>
-            <p>April 2021 - May 2021</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2>Frshr Technologies</h2>
-        </div>
-        <div class="desc">
-            <h3>Wordpress Developer | Internship</h3>
-            <p>April 2021 - April 2021</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container left">
-      <div class="content">
-        <div class="tag">
-          <h2>WonderingBlog</h2>
-        </div>
-        <div class="desc">
-            <h3>Web Development & SEO | Internship</h3>
-            <p>March 2021 - April 2021</p>
-        </div>
+      <div class="desc">
+          <h3>Java Full Stack Developer Intern (Training)</h3>
+          <p>2026 - Present</p>
+          <p>Undergoing intensive training in Java full stack development, covering Core Java, Spring Boot,
+          REST APIs, SQL databases, and front-end fundamentals (HTML, CSS, JavaScript). Building hands-on
+          projects to strengthen full application development lifecycle skills, from backend logic and
+          database design to API testing and debugging.</p>
       </div>
     </div>
   </div>
 
-  <div class="morebtn">
-    <a href="/experience" class="btn"><span>View All</span>
-      <i class="fas fa-arrow-right"></i>
-  </a>
-  </div> -->
+</div>
 
-<!-- </div>
-
-</section> -->
+</section>
 <!-- experience section ends -->
 
 <!-- contact section starts -->
@@ -418,10 +272,9 @@
           <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
           <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
           <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
-          <li><a href="#experience">Experience</a></li>
+          <a href="#projects"><i class="fas fa-chevron-circle-right"></i> projects</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
           <li><a href="https://drive.google.com/file/d/12oMvTUDTawr1Cub1GepdJtbQ8qV3RsRD/view?usp=sharing">Resume</a></li>
-          <!-- <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
-          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a> -->
       </div>
 
       <div class="box">
@@ -434,8 +287,6 @@
               <a href="https://www.linkedin.com/in/bhadru-banothu/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
               <a href="https://github.com/bbhadru " class="fab fa-github" aria-label="GitHub" target="_blank"></a>
               <a href="mailto:bhadrubanothu79@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
-              <!-- <a href="https://twitter.com/jigar_sable" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
-              <a href="https://t.me/lifecode5" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a> -->
           </div>
       </div>
   </div>
